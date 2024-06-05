@@ -1,0 +1,250 @@
+/*프리텐다드*/
+	@font-face {
+    font-family: 'Pretendard-Black';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;}
+	@font-face {
+    font-family: 'Pretendard-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;}
+	@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;}
+    @font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;}
+	@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;}
+	@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;}
+    @font-face {
+    font-family: 'Pretendard-Light';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;}
+    @font-face {
+    font-family: 'Pretendard-ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;}
+	@font-face {
+    font-family: 'Pretendard-Thin';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;}
+    @font-face {
+    font-family: 'DOSMyungjo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+.hahmlet-9 {
+		  font-family: "Hahmlet", serif;
+		  font-optical-sizing: auto;
+		  font-weight: 900;
+		  font-style: normal;}
+
+html {font-family: 'Pretendard-Light';
+		background: #A69991; color: #F5EED4;
+		scroll-behavior: smooth;
+	font-size: 1.4rem; line-height: 1.6;word-break: keep-all;}
+
+body,nav,h1,h2,h3,h4,h5,h6,p,ul,li,a{margin: 0;padding: 0}
+	nav{padding: 150px 0px;}
+	li {font-family: "Hahmlet";
+		font-weight: 500;font-size: 1rem;padding: 0px 40px;}
+	a{display: inline-block;color: #A69991;
+        text-decoration: none;position: relative;}
+
+	section{padding: 200px 0px;}
+    footer{margin: 40px 0px;width: 900px; 
+        padding: 80px 0px 180px 0px;}
+	.wrap{width: 1300px;margin: auto;position: relative;}
+
+    .flex{display: flex;justify-content: space-between;}
+    .fo-fl{display: flex;}
+    .menu{width: 1100px;margin: auto;line-height: 1.3;}
+		.menu li{list-style-type: none;}
+		a:hover{color: white;}
+
+    .icon{display: block;width: 150px; position: absolute;
+        top: 50%;left: 50%;transform: translate(-50%, -50%);}
+        a:hover .icon{visibility: hidden;}
+
+h1{font-family: "Hahmlet";font-weight: 900;
+    font-size: 12rem;padding: 0px 200px;color: #351888;}
+    h1:hover{color: white;}
+h2{font-family: "Hahmlet";
+    font-weight: 200;font-size: 5rem;padding: 0px 230px;
+    line-height: 1.2;}
+h3{font-family: "Hahmlet";position: relative;
+    font-weight: 700;font-size: 2rem;padding: 10px 0px;
+    color: #351888;width: 900px;text-align: left;}
+     h3::after {content: "";display: block;
+            width: 100%;height: 2px;background: #351888;
+            position: absolute;
+            top: 100px;}
+h4{font-family: "Hahmlet";font-weight: 200;
+    padding: 40px 0px;}
+h5{font-family: "Hahmlet";font-weight: 200;color: #351888;
+    line-height: 1.8; padding-right: 18px;font-size: 1rem;}
+    footer::before {content: "";display: block;
+            width: 900px;height: 2px;background: #351888;
+            position: absolute;
+            top: 90px;}
+p{color: white;width: 700px;padding: 20px 0px;}
+.sheep-p{font-family: "Pretendard-Bold";font-size: 2rem;
+    color: white;padding: 50px 0px 80px 0px;}
+.moon-p{font-family: "Pretendard-Bold";font-size: 4rem;
+    color: white;width: 100px;text-align: center;}
+.bold-p{font-weight: 600;display: inline;}
+.footer-p{color: #351888}
+
+.marquee-container {width: 100%;overflow: hidden;
+    white-space: nowrap;box-sizing: border-box;
+    background: #351888;margin: 50px 0px 150px 0px;}
+.marquee {display: inline-block;font-size: 2.5rem;
+    animation: marquee 12s linear infinite;color: white;
+    font-family: "DOSMyungjo";padding: 10px 0px;}
+ .marquee span {display: inline-block;}
+@keyframes marquee {
+    from {transform: translateX(0%);}
+    to {transform: translateX(-50%);}
+        }
+
+.sticky{width: 250px;position: sticky;top: 140px;}
+.fo-sticky{width: 250px;position: sticky;top: 140px;
+    visibility: hidden;}
+.ctt{align-content: right;width: 930px;
+    padding: 10px 0px}
+
+.fade{animation: fadein 1.5s linear forwards;position: relative;}
+@keyframes fadein{
+        from{top: 600px; opacity: 0}
+        to{top: 0px; opacity: 1}
+    }
+.purple{background: #351888;width: 100%;height: 80px;
+    box-shadow: 0px 0px 60px 70px #351888;z-index: -10;
+    position: sticky;top: 400px;}
+.grp-a{background: #351888;width: 800px;height: 70px;
+    border-radius: 50px;text-align: center;line-height: 70px;
+    margin: 10px 0px;color: #351888}
+    div.grp-a:hover{background: white;color: #351888}
+.grp-k{background: #351888;width: 700px;height: 70px;
+    border-radius: 50px;text-align: center;line-height: 70px;
+    margin: 10px 0px;color: #351888}
+    div.grp-k:hover{background: white;color: #351888}
+
+
+.box-w{background: #91867F; width: 250px;height: 20px;
+    margin-bottom: 15px;}
+    div.box-w:hover{animation: w 2s;}
+@keyframes w{from{width: 250px;height: 20px;}
+        to{width: 250px;height: 20px;background: #351888;}}
+
+.box-m{background: #91867F; width: 250px;height: 20px;
+    margin-bottom: 15px;}
+    div.box-m:hover{animation: m 2s forwards;}
+@keyframes m{from{width: 250px;height: 20px;}
+        to{width: 500px;height: 40px;background: #351888;}}
+
+.box-y{background: #91867F; width: 250px;height: 20px;
+    margin-bottom: 30px;}
+    div.box-y:hover{animation: y 2s forwards;}
+@keyframes y{from{width: 250px;height: 20px;}
+        to{width: 750px;height: 320px;background: #351888;}}
+
+.owl2{width: 200px;animation: rotate 0.5s alternate;}
+.eye2{width: 200px;animation: rotate 0.5s alternate;}
+.fl2{display: flex;
+    justify-content: flex-start; padding-top: 50px;}
+@keyframes rotate{to{transform: rotate(-20deg);}}
+.delay-1 {animation-delay: 0.4s;}
+.delay-2 {animation-delay: 0.8s;}
+.delay-3 {animation-delay: 1.2s;}
+.delay-4 {animation-delay: 1.6s;}
+
+input{display: none;}
+.owl-h{display: inline-block; padding: 10px 0px; 
+    margin: 20px 15px 10px 0px;width: 280px; border-radius: 10px;
+    text-align: center;background: #685D8F;
+    box-shadow: -6px 5px 0px 0px #91867F;
+    font-family: "Hahmlet";font-weight: 200;}
+.owl-p{font-family: "Pretendard-Bold";font-size: 2.5rem;
+    display: none;color: white;padding: 60px 0px 120px 0px;
+    line-height: 1.6;}
+
+#owl1:checked ~ #owl-h1{color: #351888;box-shadow: none;
+    background: white;}
+#owl1:checked ~ #p1{display: block;}
+
+#owl2:checked ~ #owl-h2{color: #351888;box-shadow: none;
+    background: white;}
+#owl2:checked ~ #p2{display: block;}
+
+#owl3:checked ~ #owl-h3{color: #351888;box-shadow: none;
+    background: white;}
+#owl3:checked ~ #p3{display: block;}
+
+
+.body-h{display: inline-block; padding: 10px 0px; 
+    margin: 20px 15px 10px 0px;width: 200px; border-radius: 10px;
+    text-align: center;background: #685D8F;
+    box-shadow: -6px 5px 0px 0px #91867F;
+    font-family: "Hahmlet";font-weight: 200;}
+.body-p{display: none;padding: 60px 0px 120px 0px;}
+.bo-p{background: white;color: #351888;margin-top: 25px;
+    line-height: 1.4;padding: 20px;border-radius: 10px;}
+.bo-img{width: 400px;}
+.sickbody{width: 400px;padding: 60px 0px 120px 0px;
+    display: block;}
+
+#bod1:checked ~ #b0{display: none;}
+#bod1:checked ~ #bod-h1{color: #351888;box-shadow: none;
+    background: white;}
+#bod1:checked ~ #b1{display: block;}
+
+#bod2:checked ~ #b0{display: none;}
+#bod2:checked ~ #bod-h2{color: #351888;box-shadow: none;
+    background: white;}
+#bod2:checked ~ #b2{display: block;}
+
+#bod3:checked ~ #b0{display: none;}
+#bod3:checked ~ #bod-h3{color: #351888;box-shadow: none;
+    background: white;}
+#bod3:checked ~ #b3{display: block;}
+
+#bod4:checked ~ #b0{display: none;}
+#bod4:checked ~ #bod-h4{color: #351888;box-shadow: none;
+    background: white;}
+#bod4:checked ~ #b4{display: block;}
+
+
+.card-tip {perspective: 1000px;margin-bottom: 80px;}
+.card {width: 220px;height: 350px;
+    position: relative;transform-style: preserve-3d;
+    transition: transform 0.6s;}
+.card:hover {transform: rotateY(180deg);}
+.card-front, .card-back {width: 100%;height: 100%;
+    position: absolute;backface-visibility: hidden;
+    display: flex;padding: 20px;
+    justify-content: center;align-items: center;
+    text-align: center;box-shadow: -9px 8px 0px 0px #91867F;
+    border-radius: 20px;}
+.card-front {background-color: #E6E0C8;font-family: "Hahmlet";
+            font-weight: 800;font-size: 2rem;}
+.card-back {background-color: white;
+    transform: rotateY(180deg);}
+.card-col{color: #351888;}
